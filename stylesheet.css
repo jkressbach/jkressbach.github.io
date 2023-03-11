@@ -13,13 +13,19 @@ serif.html */
 .wrapper {
     /* there are some built in colors like lightgray,
        or you can use hex codes like #ffffff */
-    background: lightgray;
+    background: lavender;
 
     /* margin is the external spacing between this element and others */
     margin: 24px;
 
     /* padding is the internal spacing of this element */
     padding: 24px;
+}
+.link {
+    color: brown; /*Aquamarine color link */
+}
+.link:hover {
+    color: aquamarine;
 }
 .salmon {
     color: salmon;
