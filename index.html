@@ -9,9 +9,10 @@
         <div class="wrapper">
             <h1>Welcome</h1>
             <p>
-                This is a test paragraph.
+                This is a test paragraph<span id="adjective">static</span>.
             </p>
-
+            <input oninput = "toggleWordColor()" type ="text" id="adjective-input"></input>
+            <button onclick="changeWord()">Click</button>
         </div>
     </body>
 </html>
