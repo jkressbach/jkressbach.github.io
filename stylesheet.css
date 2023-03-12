@@ -15,20 +15,22 @@ serif.html */
        or you can use hex codes like #ffffff */
     background: lavender;
 
+    border: 15px solid darkgoldenrod;
+
     /* margin is the external spacing between this element and others */
     margin: 24px;
 
     /* padding is the internal spacing of this element */
     padding: 24px;
 }
-.link {
+body.a {
     color: brown; /*Aquamarine color link */
 }
-.link:hover {
-    color: aquamarine;
+a:visited {
+    color: brown;
 }
-.salmon {
-    color: salmon;
+a:hover {
+    color: #104c52;
 }
 /* selects the element with id = adjective */
 #adjective {
